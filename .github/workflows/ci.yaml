@@ -37,7 +37,7 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           context: .
-          file: WebApplication1/Dockerfile
+          file: webapplication1/Dockerfile
           push: true
           tags: depa408/docker:${{ github.sha }}
   promote-to-dev-environment:
