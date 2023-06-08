@@ -1,4 +1,4 @@
-name: ci
+name: CI
 
 env:
   CONFIG_REPO_NAME: argocd-course-webapp-config
